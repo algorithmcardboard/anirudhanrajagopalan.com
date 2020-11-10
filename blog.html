@@ -1,0 +1,16 @@
+---
+title: Blog
+---
+<h1><a href="/" >Anirudh</a>'s Blog</h1>
+
+<p>The opinions expressed here are my own and doesn't reflect that of my employers.</p>
+
+<h3>Posts</h3>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>

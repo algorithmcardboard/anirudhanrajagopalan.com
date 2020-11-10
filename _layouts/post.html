@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>
+  <span> {{ page.date | date_to_string }} </span>
+  {% for tag in page.tags %}
+  <span> ( {{tag}} )</span> 
+  {% endfor %}
+</p>
+
+{% if page.goodreads_link %}
+<p> Goodreads: <a href="{{page.goodreads_link}}" target="_blank">{{page.goodreads_link}}</a></p>
+<p> Author: <a href="{{page.author_link}}">{{page.author_name}}</a> </p>
+{% endif %}
+
+{{ content }}
+
+
+<footer> <i>The opinions expressed are my own and doesn't reflect that of my employers </i></footer>
