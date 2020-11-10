@@ -1,3 +1,4 @@
+_site
 _site/docker-compose.yml
 .sass-cache/
 .jekyll-cache/
