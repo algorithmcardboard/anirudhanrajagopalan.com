@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "The addons I use"
+title:  "Browser addons everyone should have"
 date:   2020-11-09 23:44:33 -0600
 tags: [privacy, firefox]
 ---
-# Browser addons everyone should have
 
 I like using Firefox more than Chrome as Firefox aligns more with my privacy outlook.  I also love Firefox just for the [major rewrite](https://bholley.net/blog/2017/stylo.html) they did using Rust.  I try to convince my friends to start using these addons and I thought it might be a good idea to start writing these down.  So here is a quick list.
 
