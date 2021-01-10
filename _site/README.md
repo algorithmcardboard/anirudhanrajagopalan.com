@@ -1,1 +1,0 @@
-# anirudhanrajagopalan.com
